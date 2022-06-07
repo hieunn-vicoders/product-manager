@@ -24,6 +24,7 @@ class ProductAttributeTransformer extends TransformerAbstract
             'value_id'   => $model->value_id,
             'type'       => $model->type,
             'price'      => $model->price,
+            'thumbnail'  => $model->thumbnail,
             'timestamps' => [
                 'created_at' => $model->created_at,
                 'updated_at' => $model->updated_at,

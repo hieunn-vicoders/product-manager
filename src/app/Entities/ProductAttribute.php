@@ -16,6 +16,7 @@ class ProductAttribute extends Model
         'value_id',
         'type',
         'price',
+        'thumbnail',
     ];
 
     public function attributeItem()
